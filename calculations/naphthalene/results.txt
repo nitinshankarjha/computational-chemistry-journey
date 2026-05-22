@@ -1,0 +1,14 @@
+NAPHTHALENE DFT CALCULATION RESULTS
+=====================================
+Molecule: C10H8
+Method: B3LYP/6-31G*
+Date: May 22, 2026
+
+RESULTS
+-------
+Total Energy : -386.833072539 A.U.
+HOMO         : -0.20579 A.U. = -5.600 eV
+LUMO         : -0.15122 A.U. = -4.114 eV
+Gap          : 0.05457 A.U. =  1.485 eV
+
+STATUS: Calculation completed
