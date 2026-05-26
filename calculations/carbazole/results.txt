@@ -1,0 +1,15 @@
+CARBAZOLE DFT CALCULATION RESULTS
+===================================
+Molecule: C12H9N
+Method: B3LYP/6-31G*
+Date: May 23, 2026
+
+RESULTS
+-------
+Total Energy : -671.658967851 A.U.
+HOMO         : -0.10398 A.U. = -2.829 eV
+LUMO         : -0.05363 A.U. = -1.459 eV
+Gap          : 0.05035 A.U. =  1.370 eV
+
+NOTE: Famous OLED host material!
+STATUS: Normal termination ✅

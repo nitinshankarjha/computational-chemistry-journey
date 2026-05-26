@@ -1,6 +1,6 @@
 # OLED Molecule Analysis
 # Author: Nitin, CUTN
-# Date: May 22, 2026
+# Date: May 2026
 
 # Results from DFT calculations
 molecules = {
@@ -17,13 +17,20 @@ molecules = {
         'homo': -5.224,
         'lumo': -1.780,
         'gap': 3.445
+    },
+    'Carbazole': {
+        'formula': 'C12H9N',
+        'energy': -671.659,
+        'homo': -2.829,
+        'lumo': -1.459,
+        'gap': 1.370
     }
 }
 
 # Print results
-print("=" * 50)
+print("=" * 60)
 print("OLED MOLECULE COMPARISON")
-print("=" * 50)
+print("=" * 60)
 
 for molecule, props in molecules.items():
     print(f"\n{molecule} ({props['formula']})")
@@ -33,8 +40,9 @@ for molecule, props in molecules.items():
     print(f"  LUMO         : {props['lumo']:.3f} eV")
     print(f"  Band Gap     : {props['gap']:.3f} eV")
 
-print("\n" + "=" * 50)
+print("\n" + "=" * 60)
 print("CONCLUSION")
-print("=" * 50)
-print("Anthracene Gap = 3.445 eV → Good for Blue OLED!")
+print("=" * 60)
+print("Anthracene Gap = 3.445 eV → Blue OLED emitter!")
+print("Carbazole Gap  = 1.370 eV → OLED host material!")
 print("Naphthalene Gap = 1.485 eV → Infrared emission")
