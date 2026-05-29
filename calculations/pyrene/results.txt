@@ -1,0 +1,15 @@
+PYRENE DFT CALCULATION RESULTS
+================================
+Molecule: C16H10
+Method: B3LYP/6-31G*
+Date: May 27, 2026
+
+RESULTS
+-------
+Total Energy : -615.108126659 A.U.
+HOMO         : -0.16859 A.U. = -4.590 eV
+LUMO         : -0.13755 A.U. = -3.744 eV
+Gap          : 0.03104 A.U. =  0.845 eV
+
+NOTE: Famous blue OLED emitter!
+STATUS: Normal termination ✅
